@@ -1,15 +1,12 @@
-
 body, h1, h2, h3, p, ul, li, img {
     margin: 0;
     padding: 0;
 }
 
-
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
 }
-
 
 header {
     background-color: #1a1a1a;
@@ -38,7 +35,6 @@ nav a:hover {
     color: #007bff;
 }
 
-
 .section {
     padding: 100px 0;
     text-align: center;
@@ -63,7 +59,7 @@ nav a:hover {
 }
 
 .parcours .section-title,
-.pacours .parcours-title {
+.parcours .parcours-title {  
     color: #fff;
 }
 
@@ -92,7 +88,7 @@ nav a:hover {
 .parcours-description {
     font-size: 16px;
     margin-top: 10px;
-
+}  
 
 .profile-image {
     border-radius: 50%;
@@ -115,7 +111,6 @@ nav a:hover {
     font-size: 18px;
     line-height: 1.5;
 }
-
 
 .section-title {
     font-size: 28px;
