@@ -1,0 +1,59 @@
+.photo p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.Parcours p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.passions p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comportement p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc-parcours p{
+    text-align: center;
+    font-size: 17px;
+    
+
+}
+
+.desc-parcours{
+    margin: 40px 25px 0 25px;
+
+}
+
+.desc-passions p{
+    text-align: center;
+    font-size: 17px;
+    
+
+}
+
+.desc-passions{
+    margin: 9px 25px 0 25px;
+
+}
+
+.desc-comportement p{
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.desc-comportement{
+    margin: 40px 25px 0 25px;
+
+}

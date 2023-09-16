@@ -3,6 +3,7 @@
     height: 100vh;
     position: sticky;
     background-color: #317AC1;
+    top: 0;
 
 }
 
@@ -52,7 +53,7 @@ margin: 70px 10px 0px 30px;
 }
 
 .li-opt a {
-    color: black;
+    color: rgb(161, 208, 247);
 }
 
 .description-part nav{
