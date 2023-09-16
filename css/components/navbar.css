@@ -1,0 +1,99 @@
+.NavBar{
+    width: 300px;
+    height: 100vh;
+    position: sticky;
+    background-color: #317AC1;
+
+}
+
+.title p {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight:bold ;
+  text-decoration: underline;
+  
+}
+
+.nav-options{
+width: 100%;
+/* height: 100%; */
+margin: 70px 10px 0px 30px;
+
+
+
+}
+
+.dropdown-menu li {
+   
+    color: black;
+}
+.options {
+    margin: 60px 0 60px 0;
+  
+}
+
+.options h5 {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.list-options li {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.list-options a {
+    color: black;
+    text-decoration: none;
+}
+
+.li-opt a {
+    color: black;
+}
+
+.description-part nav{
+    width: 100%;
+
+    
+    
+}
+
+.name  {
+   list-style: none;
+
+}
+
+/* .name a  {
+font-size: 20px;
+color: black;
+
+} */
+
+.nav-name{
+    width: 100%;
+    height: 5vh;
+    border: 2px solid rgb(16, 16, 16, 5);
+}
+
+.nav-name ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.brunic{
+    color: purple;
+    font-size: 20px;
+   
+}
+
+.florian{
+    color: blue;
+    font-size: 20px;
+
+}
