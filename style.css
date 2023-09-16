@@ -1,48 +1,96 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 0;
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
-    header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
+nav {
+    background-color: #BA55D3;
+    width: 20%;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+}
 
-    nav ul {
-        list-style: none;
-        padding: 0;
-    }
+nav h2 {
+    color: white; 
+}
 
-    nav li {
-        display: inline;
-        margin-right: 20px;
-    }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
 
-    nav a {
-        text-decoration: none;
-        color: #fff;
-    }
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
 
-    main {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #fff;
-    }
+nav a:not(:last-child) {
+    margin-bottom: 10px; 
+}
 
-    h1, h2 {
-        color: #333;
-    }
+.content {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    footer {
-        text-align: center;
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-    }
-</style>
+.profile {
+    width: 70%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.name-age {
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 18px;
+}
+
+.name-section {
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.name-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.section {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.section img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
