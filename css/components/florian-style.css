@@ -10,26 +10,6 @@
     background-color: #BA55D3;
 }
 
-/* nav h2 {
-    color: white; 
-}
-
-
-.ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin-right: 20px;
-} */
-
-
-
-/* nav a:not(:last-child) {
-    margin-bottom: 10px; 
-} */
 
 .content {
     width: 100%;
@@ -43,7 +23,6 @@ nav li {
     width: 70px;
     margin-bottom: 20px;
     text-align: center;
-    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
