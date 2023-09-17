@@ -21,6 +21,7 @@ Travail de groupe :
   Florian DECODTS : 
   - Réalisation de la page de descriptions de Brunic
   - Modification sur la navbar
+  - Modifications pour pouvoir switcher entre les deux pages
 
 
 👨‍💻 Explication des pages 
