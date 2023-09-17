@@ -34,4 +34,6 @@ Si vous cliquez sur le nom Florian ou Brunic en haut de la page vous pouvez swit
 La page a été réaliser en HTML et en CSS.
 
 
+Lien de la page : https://fl0-94.github.io/Git-Rendu/
+
 
