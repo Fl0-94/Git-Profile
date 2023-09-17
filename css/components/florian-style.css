@@ -43,6 +43,14 @@ nav li {
     width: 70px;
     margin-bottom: 20px;
     text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0 0px 0;
+    padding-top: 20px ;
 }
 
 .profile img {
