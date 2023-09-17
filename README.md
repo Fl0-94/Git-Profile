@@ -14,11 +14,13 @@ Travail de groupe :
   - Réalisation de la maquette du site
   - Réalisation de la page de description de Florian 
   - Rangement des fichiers 
-  - Liaisons des pages de tout un chacun
+  - Liaisons des pages deux pages
+  - Raccorder la navbar
+
 
   Florian DECODTS : 
   - Réalisation de la page de descriptions de Brunic
-  - 
+  - Modification sur la navbar
 
 
 👨‍💻 Explication des pages 
