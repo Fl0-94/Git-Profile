@@ -1,113 +1,96 @@
-
-body, h1, h2, h3, p, ul, li, img {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
-
-body {
-    font-family: 'Arial', sans-serif;
-    color: #333;
+nav {
+    background-color: #BA55D3;
+    width: 20%;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
 }
 
-
-header {
-    background-color: #1a1a1a;
-    color: #fff;
-    padding: 20px 0;
+nav h2 {
+    color: white; 
 }
-
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin-right: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 
 nav a {
+    display: block;
+    color: white;
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
+    padding: 10px;
+    font-size: 20px;
 }
 
-nav a:hover {
-    color: #007bff;
+nav a:not(:last-child) {
+    margin-bottom: 10px; 
 }
 
+.content {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile {
+    width: 70%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.name-age {
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 18px;
+}
+
+.name-section {
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.name-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
 
 .section {
-    padding: 100px 0;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-/* Styles spécifiques à la classe "parcours" */
-.parcours {
-    background-image: url('about-bg.jpg');
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
     padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    transition: transform 0.3s;
-}
-
-.parcours:hover {
-    transform: translateY(-5px);
-}
-
-.parcours img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-
-.parcours .parcours-title {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.parcours .parcours-description {
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-
-.profile-image {
-    border-radius: 50%;
-    max-width: 200px;
     margin-bottom: 20px;
 }
 
+.section h2 {
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
 
-.name {
-    font-size: 36px;
+.section img {
+    max-width: 100%;
     margin-bottom: 10px;
-}
-
-
-.subtitle {
-    font-size: 18px;
-    color: #007bff;
-    margin-bottom: 30px;
-}
-
-
-.description {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-
-.section-title {
-    font-size: 28px;
-    margin-bottom: 40px;
-    color: #007bff;
 }
